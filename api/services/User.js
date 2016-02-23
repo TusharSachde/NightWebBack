@@ -26,15 +26,7 @@ var schema = new Schema({
     }],
     index: true
   },
-  config: {
-    type: [{
-      name: String,
-      content: String,
-      status: Number,
-      modificationTime: Date
-    }],
-    index: true
-  },
+  forgotPassword: String,
   modificationTime: Date
 });
 
